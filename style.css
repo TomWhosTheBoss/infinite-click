@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* General Reset */\
+* \{\
+  margin: 0;\
+  padding: 0;\
+  box-sizing: border-box;\
+\}\
+\
+/* Body Styling */\
+body \{\
+  font-family: 'Arial', sans-serif;\
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);\
+  display: flex;\
+  justify-content: center;\
+  align-items: center;\
+  height: 100vh;\
+  overflow: hidden;\
+\}\
+\
+/* Container Styling */\
+.container \{\
+  text-align: center;\
+  background: rgba(255, 255, 255, 0.9);\
+  padding: 2rem;\
+  border-radius: 15px;\
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);\
+\}\
+\
+/* Heading Styling */\
+h1 \{\
+  font-size: 2.5rem;\
+  color: #333;\
+  margin-bottom: 1.5rem;\
+\}\
+\
+/* Button Styling */\
+#clickButton \{\
+  padding: 15px 30px;\
+  font-size: 1.5rem;\
+  cursor: pointer;\
+  background-color: #ff4757;\
+  color: white;\
+  border: none;\
+  border-radius: 10px;\
+  transition: background-color 0.3s ease, transform 0.2s ease;\
+\}\
+\
+#clickButton:hover \{\
+  background-color: #ff6b81;\
+  transform: scale(1.05);\
+\}\
+\
+/* Counter Styling */\
+#counter \{\
+  font-size: 1.2rem;\
+  margin-top: 20px;\
+  color: #555;\
+  font-weight: bold;\
+\}}
